@@ -1,39 +1,80 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Heaven's Restaurant
 
-Welcome,
+Heaven's Restaurant is a business which has one primary goal, make customers happy. This is however a made-up business with no real activity.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Experience
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+### User Stories
 
-## Codeanywhere Reminders
+1. As a user, I want to be able to navigate the business on first look.
+2. As a user, I want to be able to contact the business without having to go through a bunch of channels.
+3. As a user, I want to be able to quickly get redirected to new sites that the current site refers to.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### Design
 
-`python3 -m http.server`
+### Colour Scheme
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+#a9927d antiquewhite; #49111a 
+I wanted a silent but also a bit of colorization, hence the colors.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+## Typography 
 
-`http_server`
+Nanum Myeongjo is the main font of the site, reserve is sans-serif. Easy to read, with a little bit of style aswell.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Montserrat is the font used for certain areas where I felt Manum Myeongjo didn't fit in.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## Features
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+When first entered site, you can choose between 4 options, clicking any of the nav links will redirect you to different sections of the page.
 
-To log into the Heroku toolbelt CLI:
+## Contact
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The contact button in the nav bar will scroll you down to a form, in this form you are required to fill out your details in order to send a message, the message will be directly forwarded to the owners Email.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Menu
 
----
+The menu button in the nav bar will scroll you down to the menu section, since the company hasn't really gotten used to this whole coding experience yet its still a work in progress.
 
-Happy coding!
+## Home
+
+The home button in the nav bar is just a link to the main page.
+
+## About
+
+The about button will scroll you down to the about section, where there are a few photos and some nicely composed texts.
+
+## Footer
+
+In the footer you can see the owners copyright signature, as well as links to external sites.
+
+## testing
+
+For testing, I used developer tools and external programs to make sure that the site was responsive and had decent performance.
+
+## validation
+
+The code has been validated through the official HTML and CSS validators, W3C and Jigsaw. No errors were found.
+
+## bugs
+
+As far as testing, and general browsing goes I can say with 99% certainty that there are no bugs.
+
+## Deployment
+
+The site was deployed using GitHub Pages.
+
+The live link can be found here ![]
+
+## Media
+
+The photos on the website are from Pexels.com
+
+## Credits
+
+W3Schools has helped me through most of the sections, the general styling and making sure that everything is just right.
+
+![https://github.com/AmyOShea/Angies-Beauty-MS1] Amy's work was a great influence too, followed certain guidelines I saw she used, her result was way better, though.
+
+My Mentor Antonio gave me a lot of solid advice.
+
+My Personal Chat Ai, who came up with most of the text that sits on the site. (Made up, not taken.)
