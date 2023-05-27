@@ -14,10 +14,10 @@ Heaven's Restaurant is a business which has one primary goal, make customers hap
 
 ### Colour Scheme
 
-#a9927d antiquewhite; #49111a 
+ #a9927d antiquewhite; #49111a
 I wanted a silent but also a bit of colorization, hence the colors.
 
-## Typography 
+## Typography
 
 Nanum Myeongjo is the main font of the site, reserve is sans-serif. Easy to read, with a little bit of style aswell.
 
@@ -74,7 +74,3 @@ The photos on the website are from Pexels.com
 W3Schools has helped me through most of the sections, the general styling and making sure that everything is just right.
 
 ![https://github.com/AmyOShea/Angies-Beauty-MS1] Amy's work was a great influence too, followed certain guidelines I saw she used, her result was way better, though.
-
-My Mentor Antonio gave me a lot of solid advice.
-
-My Personal Chat Ai, who came up with most of the text that sits on the site. (Made up, not taken.)
