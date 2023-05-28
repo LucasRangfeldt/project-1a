@@ -1,15 +1,17 @@
 * {
     box-sizing: border-box;
 }
- body, html {
+ body {
     height: 100%;
     margin: 0;
 }
 html {
+    height: 100%;
     scroll-behavior: smooth;
 }
+
 /* background-image  */
-body, html {
+.bg {
     background-image: url(../css/images/pexels-photo-5865071-min.jpeg);
     height: 100%;
     background-position: center;
@@ -18,30 +20,27 @@ body, html {
     overflow: auto;
 }
 
+
 /* header styling */
 
-.header {
-
+#header {
    text-align: center;
    font-size: 150%;
    color: black;
    
-   background-color: #a9927d;
-   opacity: 0.8;
+   background-color: rgba(244, 201, 93, 0.5);
    overflow: auto;
+   
   
-    
-    
 }
 
 /* navbar */
 
 .site-menu {
-
-    background-color:blanchedalmond;
-    opacity: 0.8;
+    padding: 10px;
+    background-color:rgba(73, 17, 26, 0.7);
     text-align: center;
-    width: 100%;
+    border: 1px solid black;
     
 
 }
@@ -52,7 +51,7 @@ body, html {
     padding-right: 15px;
     font-size: 150%;
     letter-spacing: 4px;
-    color: black;
+    color: aliceblue;
     text-decoration: none;
     
 
@@ -62,7 +61,20 @@ a:hover {
     text-decoration: underline;
 }
 /* welcome to heavens */
+
+.main {
+    background-color: rgba(244, 201, 93, 0.5);
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+.repo {
+    border: 1px solid black;
+    padding: 5px;
+}
+
 /* media queries for welcome*/
+
 @media screen and (max-width: 480px) {
     .header {
         font-size: 100%;
@@ -73,32 +85,32 @@ a:hover {
 /* also code for certain text styles */
 
 .text {
-    color: black;
-    text-decoration: underline;
+    color: aliceblue;
 
 }
 
 .h2-text {
-    text-decoration: underline;
+    color: aliceblue;
     text-align: center;
     font-size: 200%;
     
 }
 .h3-text {
-
+    color: aliceblue;
     text-align: center;
-    
     font-size: 200%;
     
 }
 /* about style */
 .about-head {
-
+    background-color: rgba(244, 201, 93, 0.5);
+    margin-left: 35%;
+    margin-right: 35%;
     text-align: center;
     font-size: 200%;
-    color: black;
-    padding-top: 25px;
-    text-decoration: underline;
+    color: aliceblue;
+    border: 1px solid black;
+
     
 
 }
@@ -111,38 +123,44 @@ a:hover {
 }
 .about-text {
     display: inline-block;
-    font-size: 100%;
-    color: black;
+    font-size: 150%;
+    color: aliceblue;
     text-align: justify;
     
 }
 /* border for about text */
 
 .corners {
-    padding: 50px;
-    border: 2px solid grey;
+    padding: 20px;
+    border: 2px solid black;
     width: 80%;
     margin-left: 10%;
+    background-color: rgba(73, 17, 26, 0.7);
    
     
 
 }
-/* wine image and text */
+/* wine section */
+
 .wine-text {
     text-align: center;
     padding: 25px;
-    font-size: 100%;
-    border: 2px solid grey;
+    font-size: 175%;
+
+    /* border for wine-text  */
+
+    border: 5px;
     width: 80%;
     margin-left: 10%;
+    background-color: rgba(73, 17, 26, 0.7);
 }
-
+ /* Images for wine-section  */
 img {
-    border: 1px solid grey;
+    
     width: 80%;
     height: 15%;
     width: 12%;
-    object-fit: contain;
+    object-fit: cover;
     margin-left: 25%;
     
     
