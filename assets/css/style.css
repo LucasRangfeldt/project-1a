@@ -1,13 +1,21 @@
 * {
     box-sizing: border-box;
 }
-body {
-    background-color: #fff;
+ body, html {
     height: 100%;
     margin: 0;
 }
 html {
     scroll-behavior: smooth;
+}
+/* background-image  */
+body, html {
+    background-image: url(../css/images/pexels-photo-5865071-min.jpeg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
 }
 
 /* header styling */

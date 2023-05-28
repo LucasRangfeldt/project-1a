@@ -63,7 +63,7 @@ As far as testing, and general browsing goes I can say with 99% certainty that t
 
 The site was deployed using GitHub Pages.
 
-The live link can be found here ![]
+The live link can be found here ![https://lucasrangfeldt.github.io/project-1a/]
 
 ## Media
 
